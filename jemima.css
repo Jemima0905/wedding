@@ -75,7 +75,7 @@ header a:visited { color: #FFFFFF ; }
 
 #gallery { display: flex; 
            flex-flow: row wrap ; 
-		   justify-content: center ;  
+		   justify-content: space-around ;  
 		}
 
 main { padding-left: .5em ; padding-right: .5em ; }
