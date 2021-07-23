@@ -80,7 +80,7 @@ header a:visited { color: #FFFFFF ; }
 img { margin: 1em ; }
 
 main { padding-left: .5em ; padding-right: .5em ; }
-
+#flow { display: block ; justify-content: center ;}
 h2 { margin: 0; text-align: center;}
 	
 table { border: 1px; border-color: #40407A ; margin-bottom: 1em; min-width:400px;
@@ -111,7 +111,7 @@ video { width:100% ; height: 500 ; max-width: 650px ;}
 video { display: block; margin: auto; }
  nav ul { display: flex ; flex-flow:  row nowrap;
 justify-content: center ; } }
- 
+ #flow { display: flex ; flex-direction: row ; }
  nav li { width: 7em }
 
 main { padding-left: 2em ; padding-right: 2em ; }
