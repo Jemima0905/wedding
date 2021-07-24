@@ -66,28 +66,28 @@ header a:link { color: #FFFFFF ; } /* trying to change color for links */
 header a:visited { color: #FFFFFF ; }
 
 
-#wrapper {	background-color: #F5F5F5;
+#wrapper {	width: 100%; background-color: #F5F5F5;
 		padding: 2em; padding-top: 2em ; }	 
 .Paragraph { text-align: center ; }
 /*
 
 for the paragraph
 */
-#gallery { display: flex; 
+#gallery { width: 100%;display: flex; 
            flex-flow: row wrap ; 
 		   justify-content: center ;  
 		}
-#gallery1 { display: flex; 
+#gallery1 { width: 100%;display: flex; 
            flex-flow: row wrap ; 
 justify-content: center ;  }
 /*
 
 galleries
 */
-#gallery2 { display: flex; 
+#gallery2 { width: 100%;display: flex; 
            flex-flow: row wrap ; 
 justify-content: center ;  }
-#gallery3 { display: flex; 
+#gallery3 { width: 100%;display: flex; 
            flex-flow: row wrap ; 
 justify-content: center ;  }
 img { margin: 1em ; }
@@ -159,7 +159,6 @@ form { grid-column: 1;
 		width:60% ; max-width: 40em;
 	padding:2em; }
 	table { max-width: 40em ; } 
-	 }
 /*
 
 this is how to make the website fit in different screen
@@ -174,5 +173,5 @@ this is how to make the website fit in different screen
 table { width: 9em; }
  #wrapper { margin: auto ; width: 80% ; border:#00008B; box-shadow: 3px 3px 3px; } 
 	 
- }
- 
+}
+}
