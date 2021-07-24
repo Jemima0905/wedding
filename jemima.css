@@ -85,7 +85,9 @@ img { margin: 1em ; }
 main { padding-left: .5em ; padding-right: .5em ; }
 #flow { display: block ; justify-content: center ;}
 #flow1 { display: block ; justify-content: center ;}
-#review { align: center ; }
+#review { display: flex ; justify-content: center ; 
+		  flex-direction: row ; 
+		  flex-flow:  row wrap ; }
 h2 { margin: 0; text-align: center;}
 	
 table { border: 1px; border-color: black ; margin-bottom: 1em; min-width:400px;
