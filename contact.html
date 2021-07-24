@@ -36,7 +36,6 @@
 		
 <form method="post"
 action="https://webdevbasics.net/scripts/demo.php">
-	
 <label for="myName">* Name:</label>
 <input type="text" name="myName" id="myName" required="required">
 
@@ -46,7 +45,7 @@ action="https://webdevbasics.net/scripts/demo.php">
 <label for="how_did_you_hear_about_us">How did you hear about us?:</label>
 <input type="text" name="myReferral" id="how_did_you_hear_about_us" list= "Media">
 
-<datalist id="Media"><!-- this is how to put a dropdown for media option-->
+<datalist id="Media">
 <option> Google </option>
 <option> Bing </option>
 <option> Facebook </option>
@@ -54,8 +53,10 @@ action="https://webdevbasics.net/scripts/demo.php">
 <option> Radio ad </option>
 </datalist>
 
-<label for="myComments">* Comments:</label><!--this is how you will create the form-->
-<input name="myComments" id="myComments" type="text"/>
+<label for="myComments">* Comments:</label>
+<input style="display:none">
+<textarea name="myComments" id="myComments"
+rows="2" cols="20" required="required"></textarea>
 
 <input type="submit" value="Send Now">
 </form>
