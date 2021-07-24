@@ -9,16 +9,14 @@ Date: 7/24/2021
 video { width:100% ; height: auto ; max-width: 320px ; }
 body { 
 		background-color: #cec7c4;
-		font-family: Script;
 		margin-top: 0 ; 
 		margin-left: 0;
 		margin-right: 0;
 		text-align: center;
-		width: 100%;
 		 }
 	 
 nav  { 
-		background-color: white;
+		background-color: #white;
 		padding-top: 0.5em; 
 		padding-bottom: 1em;
 		padding-right: 0; 
@@ -112,7 +110,7 @@ this is how to design the table
 
 */
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid #black;
 }
 
 tr:nth-of-type(odd) {background-color: #D7E8E9 
@@ -170,9 +168,9 @@ this is how to make the website fit in different screen
 	video { display: block; margin: auto; }
  header { font-size: 120% ; }
  nav{ font: bold;}
- form {width: 100%; max-width: 40em; display: grid; grid-gap: 1em; }
+ form {width: 60%; max-width: 40em; display: grid; grid-gap: 1em; }
 table { width: 9em; }
- #wrapper { width:100% ; margin: auto; border:#00008B; box-shadow: 3px 3px 3px; } 
+ #wrapper {  margin: auto; border:#00008B; box-shadow: 3px 3px 3px; } 
 	 
 }
 }
