@@ -14,6 +14,7 @@ body {
 		margin-left: 0;
 		margin-right: 0;
 		text-align: center;
+		width: 100%;
 		 }
 	 
 nav  { 
@@ -79,17 +80,17 @@ for the paragraph
 		}
 #gallery1 { width: 100%;display: flex; 
            flex-flow: row wrap ; 
-justify-content: center ;  }
+	   justify-content: center ;  }
 /*
 
 galleries
 */
 #gallery2 { width: 100%;display: flex; 
            flex-flow: row wrap ; 
-justify-content: center ;  }
+	   justify-content: center ;  }
 #gallery3 { width: 100%;display: flex; 
            flex-flow: row wrap ; 
-justify-content: center ;  }
+	   justify-content: center ;  }
 img { margin: 1em ; }
 
 main { padding-left: .5em ; padding-right: .5em ; }
@@ -171,7 +172,7 @@ this is how to make the website fit in different screen
  nav{ font: bold;}
  form {width: 60%; max-width: 40em; display: grid; grid-gap: 1em; }
 table { width: 9em; }
- #wrapper { margin: auto ; width: 80% ; border:#00008B; box-shadow: 3px 3px 3px; } 
+ #wrapper { width:100% ; margin: auto ; width: 80% ; border:#00008B; box-shadow: 3px 3px 3px; } 
 	 
 }
 }
