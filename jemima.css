@@ -65,7 +65,7 @@ header a:link { color: #FFFFFF ; } /* trying to change color for links */
 header a:visited { color: #FFFFFF ; }
 
 
-#wrapper {	width: 100%; background-color: #F5F5F5;
+#wrapper {	background-color: #F5F5F5;
 		padding: 2em; padding-top: 2em ; }	 
 .Paragraph { text-align: center ; }
 /*
