@@ -2,7 +2,7 @@
 
 Jemima Artistry
 Author: Jemima Abellera
-Date: 7/22/2021
+Date: 7/24/2021
 
 */
 * { box-sizing: border-box; }
@@ -26,7 +26,10 @@ nav  {
 		width: 100% ;
 		height: auto ;
 		top: 0 ; left : 0 ;
- }	
+ }	/*
+
+nav style
+*/
  nav ul 
 	{
 	 list-style-type: none;
@@ -66,7 +69,10 @@ header a:visited { color: #FFFFFF ; }
 #wrapper {	background-color: #F5F5F5;
 		padding: 2em; padding-top: 2em ; }	 
 .Paragraph { text-align: center ; }
+/*
 
+for the paragraph
+*/
 #gallery { display: flex; 
            flex-flow: row wrap ; 
 		   justify-content: center ;  
@@ -74,6 +80,10 @@ header a:visited { color: #FFFFFF ; }
 #gallery1 { display: flex; 
            flex-flow: row wrap ; 
 justify-content: center ;  }
+/*
+
+galleries
+*/
 #gallery2 { display: flex; 
            flex-flow: row wrap ; 
 justify-content: center ;  }
@@ -95,7 +105,11 @@ border-collapse: collapse ; }
 caption { margin: 1em ; font-weight: bold ; font-size: 120% ; } 
 thead th { background-color: #F5F5F5 ; }
 th, td { padding: .5em ; font-family:arial,sansrif; margin: 1em ; }
+/*
 
+this is how to design the table
+
+*/
 table, th, td {
   border: 1px solid black;
 }
@@ -103,11 +117,23 @@ table, th, td {
 tr:nth-of-type(odd) {background-color: #D7E8E9 
 }
 
+/*
 
+make the table colored in odd numbers
+*/
 
 footer { text-align: center; 
 		font: italic ;
 		clear: right ; }
+/*
+
+/*
+
+this is for the footer
+
+*/
+
+*/
 form {	display: flex;
 		flex-flow: column nowrap;
 		}
@@ -134,7 +160,11 @@ form { grid-column: 1;
 	padding:2em; }
 	table { max-width: 40em ; } 
 	 }
+/*
 
+this is how to make the website fit in different screen
+
+*/
  @media (min-width: 1024px) {
 	video { width:100% ; height: 500px ; max-width: 650px ; } 
 	video { display: block; margin: auto; }
