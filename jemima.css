@@ -166,5 +166,5 @@ this is how to make the website fit in different screen
  form {width: 60%; max-width: 40em; display: grid; grid-gap: 1em; }
 table { max-width: 40em ; width: 60&} 
 table { width: 9em; }
- #wrapper {  margin: auto; width: 80% ; border:#00008B; box-shadow: 3px 3px 3px; } 
+ #wrapper {  margin: auto; width: 100% ; border:#00008B; box-shadow: 3px 3px 3px; } 
 }
