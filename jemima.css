@@ -72,10 +72,7 @@ header a:visited { color: #FFFFFF ; }
 
 for the paragraph
 */
-#gallery { display: flex; 
-           flex-flow: row wrap ; 
-		   justify-content: center ;  
-		}
+#gallery { display: flex ; flex-direction: row ; flex-flow: row wrap ; justify-content:space-evenly ;}
 #gallery1 { display: flex; 
            flex-flow: row wrap ; 
 	   justify-content: center ;  }
